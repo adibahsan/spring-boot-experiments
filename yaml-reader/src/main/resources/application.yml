@@ -1,0 +1,7 @@
+server:
+  port: 8989
+
+spring:
+  config:
+    name: application,message
+    location: classpath:/,classpath:/config/
