@@ -15,6 +15,7 @@ class YamlReaderApplication{
 			println("Data read from YAML file: $dataMap")
 		}
 	}
+
 }
 
 fun main(args: Array<String>) {

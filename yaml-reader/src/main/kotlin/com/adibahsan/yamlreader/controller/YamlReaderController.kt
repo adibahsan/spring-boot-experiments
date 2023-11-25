@@ -21,6 +21,7 @@ class YamlReaderController(
     )
     fun post(@RequestBody requestBody: YamlRequestBody): Mono<YamlResponseBody> {
         println("yaml reader data ${yamlReader.getDataMap()}")
+        println("yaml reader data for EEE ${yamlReader.getDataMap()["EEE"]}")
 
         val responseBody = YamlResponseBody(
             version = "1.0",
